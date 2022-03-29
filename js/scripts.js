@@ -53,22 +53,32 @@ function boldPassage(word, text) {
 }
 
 
+
+
+
+
 function topThreeWords(text) {
-  if (noInputtedWord(text) {
-    return 0;
-  }
+  // if (noInputtedWord(text)) {
+  //   return 0;
+  // }
+  
+  let newArray = [];
+
   let textArray = text.split(" ");
   textArray.forEach(function(element, index) {
     for(i=0;i<textArray.length;i++){
-      let sum=0;
-      if(element[index]===element[i] {
-        sum++;
-    }
-    console.log(sum);
-    }
-  })
-});
+      if(textArray[index]===textArray[i]){
+        newArray.push(element)
+        textArray.filter(word => element === element)
+      }
 
+      }
+    }
+  });
+  console.log(newArray);]){
+}
+
+textArray[index=o]==textArray[0]
 
 
 // let text=""
